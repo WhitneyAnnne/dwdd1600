@@ -1,0 +1,130 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+/*Header*/
+
+header {
+    background-color: #c44f15;
+    padding: 1rem 2vw;
+}
+
+header h1{
+    margin: 0;
+    color: #fff5ee;
+}
+
+/*Navigation*/
+
+nav {
+    background-color: #fff5ee;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #245459;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #245459;
+    color: #fff5ee;
+}
+nav a:hover {
+    color: #d28c31;
+}
+
+/*Main Body*/
+
+main{
+    padding: 1rem 2vw;
+}
+
+main h1{
+    color: #245459;
+}
+
+main h2{
+    color: #c44f15;
+    margin-bottom: .2rem;
+}
+
+main h3 {
+    color: #245459;
+}
+
+main address {
+    color: #245459;
+    font-style: normal;
+    background-color: #fff5ee;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #c44f15;
+    border-radius: .5rem;
+}
+
+main p{
+    color: #245459;
+    margin: 0 0 .3rem 0;
+}
+
+main a {
+    color: #245459;
+}
+
+main a:hover {
+    color: #f5aa85;
+}
+
+main ol{
+    padding: .5rem 3vw;
+    background-color: #fff5ee;
+}
+
+
+main dl dt{
+    color: #fff;
+    font-weight: 700;
+}
+
+main dl dd{
+    color: #245459;
+    font-size: .9rem;
+}
+
+main ul{
+    list-style-type: circle;
+    color: #245459;
+}
+
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #245459;
+    text-align: center;
+    color: #fff;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #fff5ee;
+}
